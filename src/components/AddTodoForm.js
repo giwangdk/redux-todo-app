@@ -11,7 +11,8 @@ const AddTodoForm = () => {
 		event.preventDefault();
 		dispatch(addTodo({
 			title : value,
-		}))
+		},
+		))
 	};
 
 	return (
